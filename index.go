@@ -14,5 +14,5 @@ func main() {
 }
 
 func IndexAction(w http.ResponseWriter, r *http.Request) {
-  w.Write([]byte(`<h1 align="center">来自小韩说课的问候</h1>`))
+  w.Write([]byte(`<h1 align="center">hello go!</h1>`))
 }
